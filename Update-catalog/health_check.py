@@ -36,7 +36,7 @@ def check_disk_full(disk, min_gb, min_percent):
 def check_cpu():
     cpu = psutil.cpu_percent(1)
     treshhold = 80
-    return cpu >= treshhold:
+    return cpu >= treshhold
         
 
 def check_memory():
